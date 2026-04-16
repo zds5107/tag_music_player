@@ -1,0 +1,65 @@
+# --------------------
+# Gradle
+# --------------------
+.gradle/
+build/
+
+# --------------------
+# Local configuration
+# --------------------
+local.properties
+
+# --------------------
+# Android Studio / IntelliJ
+# --------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Keystore files
+# --------------------
+*.jks
+*.keystore
+
+# --------------------
+# Generated / build outputs
+# --------------------
+captures/
+.externalNativeBuild/
+.cxx/
+obj/
+
+# --------------------
+# Kotlin / compiler artifacts
+# --------------------
+*.kotlin_module
+
+# --------------------
+# APK / AAB outputs
+# --------------------
+*.apk
+*.ap_
+*.aab
+
+# --------------------
+# NDK / native builds
+# --------------------
+*.so
+
+# --------------------
+# Misc / profiling
+# --------------------
+*.hprof
