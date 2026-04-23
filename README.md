@@ -93,3 +93,43 @@ Tag selection drives the core experience: when users choose tags, the app dynami
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/tag-music-player.git
+
+2. Open the project in Android Studio
+
+3. Sync Gradle dependencies
+
+4. Run the app on:
+   - A physical Android device (recommended for accessing local media files)
+   - Or an emulator with media files configured
+
+---
+
+## Usage
+
+- Grant media permissions on launch  
+- Scan device for songs  
+- Run auto-tagging or manually assign tags  
+- Select tags to generate a playlist  
+- Control playback from the player screen  
+
+---
+
+## Key Takeaways
+
+- Implemented a scalable **MVVM architecture** with clear separation of concerns  
+- Designed a **relational data model** using Room with many-to-many mappings  
+- Built a **reactive UI** using StateFlow and Jetpack Compose  
+- Integrated **media playback systems** using ExoPlayer  
+- Developed a **custom tagging system** to enhance user interaction beyond standard music apps  
+
+---
+
+## Future Improvements
+
+- UI/UX polish and animations  
+- Smarter auto-tagging (metadata + heuristics)  
+- Search and sorting functionality  
+- Persistent playback state across app restarts  
+- Playlist saving and export features  
+
+   
