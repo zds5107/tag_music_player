@@ -132,4 +132,7 @@ Tag selection drives the core experience: when users choose tags, the app dynami
 - Persistent playback state across app restarts  
 - Playlist saving and export features  
 
+
+
+![Tag Player App](player.png)
    
